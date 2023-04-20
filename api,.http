@@ -1,0 +1,32 @@
+http://localhost:8080/wallet
+###
+POST http://localhost:8080/barcode
+
+{
+    "id": "isaac112",
+    "size": 2
+}
+
+
+###
+POST http://localhost:8080/search
+
+{
+    "id": "isaac"
+}
+
+
+###
+POST http://localhost:8080/genimg
+
+{
+    "id": "isaac112"
+}
+
+
+###
+POST http://localhost:8080/mypage
+
+{
+    "id": "isaac11"
+}
